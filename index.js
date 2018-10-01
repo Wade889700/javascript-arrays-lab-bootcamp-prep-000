@@ -1,4 +1,10 @@
 // Add your functions and code here
 var kittens = ['Milo', 'Otis', 'Garfield']
 
-function  
+function  destructivelyAppendKitten(){
+  
+}
+
+function appendKutten(element){
+    return kittens.
+}
