@@ -38,12 +38,12 @@ function prependKitten(element){
 return kittens1
 }
 
-function removeLastKitten(element){
-  var kittens1 = [element ,...kittens]
-  return kittens1.unshift()
-}
+function removeLastKitten(){
+  var kittens1 = kittens
+  kittens1.pop() 
+  return kittens1
 
-function removeFirstKitten(element){
-  var kittens1 = [element ,...kittens]
-  return kittens1.shift()
-}
+function removeFirstKitten(){
+  var kittens1 = kittens
+  kittens1.shift() 
+  return kittens1
