@@ -39,8 +39,7 @@ return kittens1
 }
 
 function removeLastKitten(){
-  var kittens1 = kittens
-  kittens1.pop() 
+  var kittens1 = kittens.splice(-1,1)
   return kittens1
 }
 function removeFirstKitten(){
