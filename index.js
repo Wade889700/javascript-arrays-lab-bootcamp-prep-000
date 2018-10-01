@@ -37,3 +37,8 @@ function prependKitten(element){
   var kittens1 = [element ,...kittens]
 return kittens1
 }
+
+function removeLastKitten(){
+  var kittens1 = [element ,...kittens]
+  return kittens1.unshift()
+}
