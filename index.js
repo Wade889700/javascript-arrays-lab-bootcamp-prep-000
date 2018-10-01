@@ -9,3 +9,6 @@ function appendKutten(element){
     var kittens1 = [kittens,...element]
     return kittens1
 }
+function destructivelyAppendKitten(element){
+  return kittens.push(element)
+}
