@@ -12,3 +12,9 @@ function appendKutten(element){
 function destructivelyAppendKitten(element){
   return kittens.push(element)
 }
+
+function destructivelyPrependKitten(element){
+  
+}
+
+function (){}
