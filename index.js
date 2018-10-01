@@ -6,6 +6,6 @@ function  destructivelyAppendKitten(){
 }
 
 function appendKutten(element){
-    var kittens1 = [kittens...element]
-    return 
+    var kittens1 = [kittens,...element]
+    return kittens1
 }
