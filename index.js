@@ -44,6 +44,6 @@ function removeLastKitten(){
   return kittens1
 }
 function removeFirstKitten(){
+  kittens.shift()
   var kittens1 = kittens
-  kittens1.shift() 
   return kittens1}
