@@ -42,3 +42,8 @@ function removeLastKitten(){
   var kittens1 = [element ,...kittens]
   return kittens1.unshift()
 }
+
+function removeFirstKitten(){
+  var kittens1 = [element ,...kittens]
+  return kittens1.shift()
+}
